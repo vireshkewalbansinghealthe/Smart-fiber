@@ -92,7 +92,7 @@ const whyKpn = [
   },
 ];
 
-const whySmart-fiber = [
+const whySmartFiber = [
   {
     icon: Award,
     title: "Specialistische kennis",
@@ -365,7 +365,7 @@ export default function HomePage() {
           </div>
 
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
-            {whySmart-fiber.map((item) => (
+            {whySmartFiber.map((item) => (
               <div key={item.title} className="card text-center">
                 <div
                   className="w-12 h-12 rounded-xl flex items-center justify-center mx-auto mb-4"
